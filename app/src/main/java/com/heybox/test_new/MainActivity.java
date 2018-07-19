@@ -64,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void testAnimation(){
+        List<String> arrayList = new ArrayList<>();
         iv.setImageResource(R.drawable.drable_list);
         AnimationDrawable ad = (AnimationDrawable) iv.getDrawable();
         ad.setOneShot(false);
