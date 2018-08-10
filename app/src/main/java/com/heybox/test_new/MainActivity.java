@@ -35,26 +35,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        v = (RecyclerView) findViewById(R.id.rv_lists);
-        v.setLayoutManager(new LinearLayoutManager(this));
-        List<String> data = new ArrayList<>();
-        v.setAdapter(new MyAdapter<String>(this, R.layout.activity_dialog, data) {
-                         @Override
-                         public void onBindViewHolder(MyViewHolder holder, String s) {
-                             holder.setText(R.id.all, s);
-                         }
-                     }
-        );
 
-        Animation a = AnimationUtils.loadAnimation(this, R.anim.anim_scale);
-        a.setFillAfter(true);
-        a.setDuration(200);
-        v.startAnimation(a);
+//        v = (RecyclerView) findViewById(R.id.rv_lists);
+//        v.setLayoutManager(new LinearLayoutManager(this));
+//        List<String> data = new ArrayList<>();
+//        v.setAdapter(new MyAdapter<String>(this, R.layout.activity_dialog, data) {
+//                         @Override
+//                         public void onBindViewHolder(MyViewHolder holder, String s) {
+//                             holder.setText(R.id.all, s);
+//                         }
+//                     }
+//        );
 
-        testAnimation();
-        testAnimator();
-        testHandler();
-        testBitmap();
+//        Animation a = AnimationUtils.loadAnimation(this, R.anim.anim_scale);
+//        a.setFillAfter(true);
+//        a.setDuration(200);
+//        v.startAnimation(a);
+//
+//        testAnimation();
+//        testAnimator();
+//        testHandler();
+//        testBitmap();
     }
 
     public void testBitmap(){
@@ -80,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void testAnimator(){
-
+String str = "stash 2";
 
         ValueAnimator va = ValueAnimator.ofInt(0,100);
         va.addListener(new Animator.AnimatorListener() {

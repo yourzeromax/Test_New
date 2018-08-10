@@ -10,11 +10,23 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity" />
-        <activity android:name=".RadioGroupActivity"></activity>
-        <activity android:name=".FragmentActivity">
+        <activity android:name=".RadioGroupActivity" />
+        <activity android:name=".FragmentActivity" />
+        <activity android:name=".DialogActivity" />
+        <activity android:name=".BroadActivity1" />
+        <activity android:name=".BroadActivity2" />
+
+        <receiver android:name=".MyReceiver">
+            <intent-filter>
+                <action android:name="receiver" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".BulrActivity"></activity>
+        <activity android:name=".BitmapActivity">
 
         </activity>
-        <activity android:name=".DialogActivity">
+        <activity android:name=".TestActivityClip">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
