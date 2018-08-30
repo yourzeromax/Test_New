@@ -1,7 +1,9 @@
-package com.heybox.test_new;
+package com.heybox.test_new.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.heybox.test_new.R;
 
 public class FragmentActivity extends AppCompatActivity {
 

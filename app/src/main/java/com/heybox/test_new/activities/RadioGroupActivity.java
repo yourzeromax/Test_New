@@ -1,4 +1,4 @@
-package com.heybox.test_new;
+package com.heybox.test_new.activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.util.Log;
 import android.widget.CompoundButton;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
+
+import com.heybox.test_new.R;
 
 public class RadioGroupActivity extends AppCompatActivity implements CompoundButton.OnCheckedChangeListener {
     RadioGroup rg_list;

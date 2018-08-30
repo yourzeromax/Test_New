@@ -31,7 +31,7 @@ public abstract class MyAdapter<T> extends RecyclerView.Adapter<MyViewHolder> {
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         MyViewHolder viewHolder = MyViewHolder.getViewHolder(context,ResId,parent);
-        return null;
+        return viewHolder;
     }
 
     @Override

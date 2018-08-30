@@ -4,11 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activities.FragmentActivity">
+    android:orientation="vertical"
+    tools:context=".activities.TabLayoutActivity">
 
-    <fragment
-        android:id="@+id/fragment"
-        android:name="com.heybox.test_new.fragment.TestFragment"
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tl_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_content"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

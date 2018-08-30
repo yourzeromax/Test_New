@@ -1,4 +1,4 @@
-package com.heybox.test_new;
+package com.heybox.test_new.activities;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -10,6 +10,8 @@ import android.util.Log;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.heybox.test_new.R;
 
 import java.io.File;
 import java.io.FileOutputStream;

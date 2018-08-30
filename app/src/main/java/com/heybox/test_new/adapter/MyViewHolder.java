@@ -27,6 +27,7 @@ public class MyViewHolder<T> extends RecyclerView.ViewHolder {
         super(itemView);
         this.ResId = ResId;
         this.contentView = itemView;
+        mViews = new SparseArray<>();
     }
 
     public <T extends View> T getView(int ResId) {
@@ -44,7 +45,7 @@ public class MyViewHolder<T> extends RecyclerView.ViewHolder {
     }
 
     public static MyViewHolder getViewHolder(Context context, int ResId, ViewGroup parent) {
-        View view = LayoutInflater.from(context).inflate(ResId, parent);
+        View view = LayoutInflater.from(context).inflate(ResId, parent,false);
         MyViewHolder holder = new MyViewHolder(view, ResId);
         return holder;
     }

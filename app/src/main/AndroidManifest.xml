@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
-        <activity android:name=".RadioGroupActivity" />
-        <activity android:name=".FragmentActivity" />
-        <activity android:name=".DialogActivity" />
-        <activity android:name=".BroadActivity1" />
-        <activity android:name=".BroadActivity2" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.RadioGroupActivity" />
+        <activity android:name=".activities.FragmentActivity" />
+        <activity android:name=".activities.DialogActivity" />
+        <activity android:name=".activities.BroadActivity1" />
+        <activity android:name=".activities.BroadActivity2" />
 
         <receiver android:name=".MyReceiver">
             <intent-filter>
@@ -22,11 +22,15 @@
             </intent-filter>
         </receiver>
 
-        <activity android:name=".BulrActivity"></activity>
-        <activity android:name=".BitmapActivity">
+        <activity android:name=".activities.BulrActivity" />
+        <activity android:name=".TestActivityClip" />
+        <activity android:name=".activities.SpannableActivity" />
+        <activity android:name=".activities.ChangeableActivity"></activity>
+        <activity android:name=".activities.TabLayoutActivity">
 
         </activity>
-        <activity android:name=".TestActivityClip">
+        <activity android:name=".activities.StikyRecyclerActivity"></activity>
+        <activity android:name=".activities.ViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

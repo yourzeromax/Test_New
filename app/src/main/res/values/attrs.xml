@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="CustomView">
-        <attr name="paintColor" format="color"/>
-        <attr name="newText" format="string"/>
-    </declare-styleable>
+   <declare-styleable name="MyView">
+       <attr name="Text" format="string"/>
+   </declare-styleable>
 </resources>

@@ -1,8 +1,11 @@
-package com.heybox.test_new;
+package com.heybox.test_new.activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.heybox.test_new.MyReceiver;
+import com.heybox.test_new.R;
 
 public class BroadActivity2 extends AppCompatActivity {
 

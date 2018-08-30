@@ -5,16 +5,14 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".BitmapActivity">
+    tools:context=".activities.ViewActivity">
 <Button
     android:id="@+id/btn_click"
-    android:text="add"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content" />
-<com.heybox.test_new.views.CustomView
-    android:id="@+id/cv"
-    android:layout_width="wrap_content"
-    app:paintColor="@color/colorAccent"
-    app:newText="123123"
-    android:layout_height="wrap_content" />
+    android:layout_height="40dp" />
+    <com.heybox.test_new.views.MyView
+        android:id="@+id/mv_test"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:Text="123" />
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.heybox.test_new;
+package com.heybox.test_new.activities;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -21,6 +21,7 @@ import android.view.animation.RotateAnimation;
 import android.widget.ImageView;
 import android.widget.TableLayout;
 
+import com.heybox.test_new.R;
 import com.heybox.test_new.adapter.MyAdapter;
 import com.heybox.test_new.adapter.MyViewHolder;
 
