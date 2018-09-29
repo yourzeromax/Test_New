@@ -13,6 +13,7 @@ import com.heybox.test_new.views.MyView;
 public class ViewActivity extends AppCompatActivity  {
 MyView myView ;
 Button btnClick;
+//String 
 FrameLayout frameLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
