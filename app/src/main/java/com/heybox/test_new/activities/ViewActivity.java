@@ -24,5 +24,9 @@ FrameLayout frameLayout;
       frameLayout.addView(view);
 //conflicat from server 123
     }
+    
+    public void say(){
+    //this is a test for git pull rebase from server
+    }
 
 }
