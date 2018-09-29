@@ -13,14 +13,10 @@
         <activity android:name=".activities.RadioGroupActivity" />
         <activity android:name=".activities.FragmentActivity" />
         <activity android:name=".activities.DialogActivity" />
-        <activity android:name=".activities.BroadActivity1" />
-        <activity android:name=".activities.BroadActivity2" />
+        <activity android:name=".activities.BroadActivity1"  android:launchMode="singleTask">
 
-        <receiver android:name=".MyReceiver">
-            <intent-filter>
-                <action android:name="receiver" />
-            </intent-filter>
-        </receiver>
+        </activity>
+        <activity android:name=".activities.BroadActivity2"  android:launchMode="singleTask"/>
 
         <activity android:name=".activities.BulrActivity" />
         <activity android:name=".TestActivityClip" />
@@ -37,6 +33,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

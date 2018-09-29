@@ -2,5 +2,9 @@
 <resources>
    <declare-styleable name="MyView">
        <attr name="Text" format="string"/>
+       <attr name="TextColor" format="color"/>
+       <attr name="TextDrawable" format="reference"/>
+       <attr name="TextSize" format="integer"/>
+       <attr name="TextAllow" format="boolean"/>
    </declare-styleable>
 </resources>
