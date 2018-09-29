@@ -21,7 +21,8 @@ FrameLayout frameLayout;
         frameLayout   = findViewById(R.id.fl_contrainer);
       View view = LayoutInflater.from(this).inflate(R.layout.ll_contraner,frameLayout,false);
       frameLayout.addView(view);
-//test2
+
+//other
     }
 
 }
