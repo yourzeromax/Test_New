@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.FrameLayout;
 
 import com.heybox.test_new.R;
+import com.heybox.test_new.other.Test_Fx;
 import com.heybox.test_new.views.MyView;
 
 public class ViewActivity extends AppCompatActivity  {
@@ -27,6 +28,7 @@ FrameLayout frameLayout;
     
     public void say(){
     //this is a test for git pull rebase from server
+        new Test_Fx<String>("23").getC();
     }
 
 }
